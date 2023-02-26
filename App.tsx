@@ -18,6 +18,7 @@ import { BottomNavigation, Appbar, Text } from 'react-native-paper';
 import { useTheme } from 'react-native-paper';
 import { LOCAL_STORAGE_NAME } from './src/constants';
 import Home from './src/Home';
+import SplashScreen from 'react-native-splash-screen';
 
 function App(): JSX.Element {
   const [isExtended, setIsExtended] = React.useState(true);
@@ -37,6 +38,8 @@ function App(): JSX.Element {
         // lets prepare the store coz it does not exists
         await AsyncStorage.setItem(LOCAL_STORAGE_NAME, JSON.stringify([])) // setting empty value
       }
+
+      SplashScreen.hide();
     } catch(e) {
       // error reading value
     }

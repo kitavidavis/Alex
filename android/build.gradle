@@ -11,8 +11,8 @@ buildscript {
         ndkVersion = "23.1.7779620"
 
         // Any of the following will work
-        googlePlayServicesVersion      = "17.0.0"
-        // playServicesVersion         = "17.0.0"
+        //googlePlayServicesVersion      = "17.0.0"
+        playServicesVersion         = "18.0.0"
         // playServicesLocationVersion = "17.0.0"
     }
     repositories {

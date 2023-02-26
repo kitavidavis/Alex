@@ -1,0 +1,13 @@
+{
+  "migIndex": 1,
+  "data": [
+    {
+      "path": "src/assets/geo.png",
+      "sha1": "ffac48c489259136c4be2ccb616ad957f2fd3b60"
+    },
+    {
+      "path": "src/assets/play_store_512.png",
+      "sha1": "eb3c13ddf56e42a6bbd2c03330ebc36be6b0559f"
+    }
+  ]
+}
